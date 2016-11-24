@@ -28,31 +28,112 @@ It is a header file which contains the methods used in the GUI under the Notepad
 
 File used to style the user interface for the GUI. 
 
+* assembler.exe
+
+Executable file to run the assembler
+
+# Steps to run the assembler
+
+* Download the assembler.exe file on your computer
+* Open Terminal 
+* Go to the file location of the assembler.exe file
+* Run the assembler by typing ./assembler.exe
+
+
 # Functions Implemented :
 
-* LDA
+* LDA 
+
+Load Accumulator
+
 * LDX
+
+Load X register
+
 * LDS
+
+Load S register
+
 * MOVAS
+
+Copy data of Accumulator to S
+
 * MOVSA
+
+Copy data of S to Accumulator
+
 * MOVAX
+
+Copy data of Accumulator to Index
+
 * MOVXA
+
+Copy data of Index register to Accumulator
+
 * MOVAB
+
+Move data of Accumulator to B
+
 * MOVBA
+
+Move data of B register to Accumulator
+
 * TIX
+
+
+
 * JEQ
+
+Jump on equal 
+
 * JLT
+
+Jump on less than
+
 * JGT
+
+Jump on Greater Than
+
 * J
+
+Jump
+
 * STA
+
+Store Accumulator
+
 * STX
+
+Store Index register
+
 * ADD
+
+Add function
+
 * SUB
+
+Subtract 
+
 * MUL
+
+Multiply
+
 * ADDF
+
+Add floating point
+
 * SUBF
+
+Subtract floating point
+
 * MULF
+
+Multiply floating point
+
 * CMP
+
+Compare
+
 * CMPS
 * STAM
 * STXM
