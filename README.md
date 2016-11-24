@@ -8,27 +8,27 @@ An Assembler is used to take in Assembly Language as its source code and convert
 
 # Contents
 
-* # assembler.pro
+*  *assembler.pro 
 
 It contains the list of source files and header files used for the development of the project.
 
-* main.cpp
+* *main.cpp
 
 Source file used to create an object of the Notepad class defined in the notepad.h header file and also to initialise the GUI.
 
-* notepad.cpp
+* *notepad.cpp
 
 It contains all the definitions of the methods used in the GUI.
 
-* notepad.h
+* *notepad.h
 
 It is a header file which contains the methods used in the GUI under the Notepad class. 
 
-* notepad.ui
+* *notepad.ui
 
 File used to style the user interface for the GUI. 
 
-* assembler.exe
+* *assembler.exe
 
 Executable file to run the assembler
 
@@ -42,101 +42,103 @@ Executable file to run the assembler
 
 # Functions Implemented :
 
-* LDA 
+* *LDA 
 
 Load Accumulator
 
-* LDX
+* *LDX
 
 Load X register
 
-* LDS
+* *LDS
 
 Load S register
 
-* MOVAS
+* *MOVAS
 
 Copy data of Accumulator to S
 
-* MOVSA
+* *MOVSA
 
 Copy data of S to Accumulator
 
-* MOVAX
+* *MOVAX
 
 Copy data of Accumulator to Index
 
-* MOVXA
+* *MOVXA
 
 Copy data of Index register to Accumulator
 
-* MOVAB
+* *MOVAB
 
 Move data of Accumulator to B
 
-* MOVBA
+* *MOVBA
 
 Move data of B register to Accumulator
 
-* TIX
+* *TIX
 
 
 
-* JEQ
+* *JEQ
 
 Jump on equal 
 
-* JLT
+* *JLT
 
 Jump on less than
 
-* JGT
+* *JGT
 
 Jump on Greater Than
 
-* J
+* *J
 
 Jump
 
-* STA
+* *STA
 
 Store Accumulator
 
-* STX
+* *STX
 
 Store Index register
 
-* ADD
+* *ADD
 
 Add function
 
-* SUB
+* *SUB
 
 Subtract 
 
-* MUL
+* *MUL
 
 Multiply
 
-* ADDF
+* *ADDF
 
 Add floating point
 
-* SUBF
+* *SUBF
 
 Subtract floating point
 
-* MULF
+* *MULF
 
 Multiply floating point
 
-* CMP
+* *CMP
 
 Compare
 
-* CMPS
-* STAM
-* STXM
+* *CMPS
+
+* *STAM
+
+* *STXM
 
 
 
