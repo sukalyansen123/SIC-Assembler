@@ -8,7 +8,7 @@ An Assembler is used to take in Assembly Language as its source code and convert
 
 # Contents
 
-* assembler.pro
+* # assembler.pro
 
 It contains the list of source files and header files used for the development of the project.
 
